@@ -1,7 +1,21 @@
-<script setup>
-import { ref, computed } from "vue";
+<template>
+  <NavBar/>
+  <router-view/>
+</template>
 
-const name = "Vue 3";
+<script>
+import NavBar from '@/components/NavBar.vue'
+//import { ref, computed } from "vue";
+
+export default {
+  name : 'App',
+  components: {NavBar}
+}
+</script>
+
+
+<!--
+  const name = "Vue 3";
 
 const counter = ref(0);
 
@@ -34,9 +48,9 @@ const classCounter = computed(() => {
 });
 
 const array = ref([]);
-</script>
+  
+  <template>
 
-<template>
   <div class="container text-center">
     <h1>Hola {{ name }}!</h1>
     <h2 :class="classCounter">
@@ -70,7 +84,7 @@ const array = ref([]);
 .zero {
     color: black;
 }
-</style>
+</style>-->
 
 <!--<script setup>
     const name = "Vue 3";
