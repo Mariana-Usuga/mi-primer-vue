@@ -1,0 +1,48 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdWnHi",
+      "name": "Mariana Usuga",
+      "company":"Youtube",
+      "email": "mari@gmail.com",
+      "title": "Youtuber",
+      "mobile": "3244",
+      "photo": "https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.pn",
+      "groupId": "3"
+    },
+    {
+      "id": "D6BNdWnHi",
+      "name": "Mariana Usuga",
+      "company":"Youtube",
+      "email": "mari@gmail.com",
+      "title": "Youtuber",
+      "mobile": "3244",
+      "photo": "https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.pn",
+      "groupId": "3"
+    },
+    {
+      "id": "D6BNdWnHi",
+      "name": "Mariana Usuga",
+      "company":"Youtube",
+      "email": "mari@gmail.com",
+      "title": "Youtuber",
+      "mobile": "3244",
+      "photo": "https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.pn",
+      "groupId": "3"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Colleague"
+    },
+    {
+      "id": "3",
+      "name": "Colleague"
+    }
+  ]
+}
