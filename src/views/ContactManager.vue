@@ -64,6 +64,12 @@
 
 export default {
   name: 'ContactManager',
-  components: {}
+  data: function() {
+    return {
+      loading: false,
+      contacts: [],
+      errorMessage: null,
+    }
+  }
 }
 </script>

@@ -5,11 +5,12 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import Spinner from './components/Spinner.vue'
 //import { ref, computed } from "vue";
 
 export default {
   name : 'App',
-  components: {NavBar}
+  components: {NavBar, Spinner}
 }
 </script>
 

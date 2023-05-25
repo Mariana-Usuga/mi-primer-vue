@@ -13,8 +13,28 @@ export class ContactService {
     return axios.get(dataUrl);
   }
 
-  static getContact(contactId) {
+  static createContact(contact) {
+    let dataUrl = `${this.serverURL}/contacts`
+    return axios.post(dataUrl, contact);
+  }
+
+  static updateContact(contact, contactId) {
     let dataUrl = `${this.serverURL}/contacts/${contactId}`
+    return axios.put(dataUrl, contact);
+  }
+
+  static deleteContact(contactId) {
+    let dataUrl = `${this.serverURL}/contacts/${contactId}`
+    return axios.delete(dataUrl);
+  }
+
+  static getAllGroups() {
+    let dataUrl = `${this.serverURL}/groups`
+    return axios.get(dataUrl);
+  }
+
+  static getGroup(groupId) {
+    let dataUrl = `${this.serverURL}/groups/${groupId}`
     return axios.get(dataUrl);
   }
 }
